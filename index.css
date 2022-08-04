@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: 5rem 1fr 1fr 1fr 1fr 5rem;
+    height: 100vh;
+    grid-template-rows: 4rem 1fr 1fr 7rem;
+    background-color: whitesmoke;
+    gap: 10px;
+}
+.card{
+   border-radius: 10px;
+}
+.card1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: purple;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1rem;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.card2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: grey;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.card3{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color:white;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.card4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color:white;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.card5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color:black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.style{
+    margin-top: 10px;
+    color: white;
+}
+.flex{
+    display: flex;
+    gap: 1rem;
+}
+img{
+    border-radius: 50%;
+}
+.crs{
+    color: black;
+}
